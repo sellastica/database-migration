@@ -11,7 +11,8 @@
 	],
 	"require": {
 		"php": ">=7.1",
-		"dibi/dibi": "^3.0"
+		"dibi/dibi": "^3.0",
+		"sellastica/maintenance": "^1.0"
 	},
 	"require-dev": {
 	},
