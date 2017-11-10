@@ -1,0 +1,23 @@
+{
+	"name": "sellastica/database-migration",
+	"type": "project",
+	"homepage": "https://github.com/sellastica/database-migration",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Sellastica",
+			"homepage": "http://www.sellastica.com"
+		}
+	],
+	"require": {
+		"php": ">=7.1",
+		"dibi/dibi": "^3.0"
+	},
+	"require-dev": {
+	},
+	"autoload": {
+		"psr-4": {
+			"Sellastica\\DatabaseMigration\\": "src/"
+		}
+	}
+}
