@@ -1,5 +1,5 @@
 <?php
-namespace DatabaseMigration;
+namespace Sellastica\DatabaseMigration;
 
 use Dibi\Connection;
 use Sellastica\Maintenance\Maintenance;
