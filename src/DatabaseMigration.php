@@ -84,10 +84,11 @@ class DatabaseMigration
 
 				} elseif ($userFileHighestIndex < $databaseData[$user]) {
 					throw new \Exception(
-						sprintf('
-							Higher database version (%d) then migration files (%d): ' . $user,
+						sprintf(
+							'Higher database version (%d) then migration files (%d): %s',
 							$databaseData[$user],
-							$userFileHighestIndex
+							$userFileHighestIndex,
+							$user
 						)
 					);
 				}
